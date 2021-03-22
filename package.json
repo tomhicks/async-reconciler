@@ -1,6 +1,6 @@
 {
   "name": "async-reconciler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transition between current and next state with a provided reconciliation function",
   "main": "dist/index.js",
   "scripts": {
