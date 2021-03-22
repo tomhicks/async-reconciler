@@ -1,2 +1,7 @@
 src
 tsconfig.json
+.prettierignore
+.prettierrc
+babel.configjs
+.eslintrc.json
+tsconfig-build.json

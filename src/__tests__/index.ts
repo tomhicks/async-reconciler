@@ -8,7 +8,7 @@ describe("Async reconciler", () => {
       const reconciler = makeAsyncReconciler({
         initialState: {value: 1},
         reconcile,
-        statesAreEqual: (a, b) => a === b,
+        statesAreEqual: (a, b) => a.value === b.value,
         log: console.log,
         onSettle: (s) => resolve(s),
       })
